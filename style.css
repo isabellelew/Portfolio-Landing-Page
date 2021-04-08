@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+header,
+footer {
+    padding: 40px;
+}
+
+main {
+    width: 70%;
+    min-height: 60vh;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    min-height: 60vh;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+nav ul li{
+    display:inline;
+    float: right;
+}
